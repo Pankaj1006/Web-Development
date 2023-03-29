@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06css_Box model,margin and padding</title>
+    <style>
+        . {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(72 72 72);
+        }
+
+        .container {
+            background-color: white;
+            border: 2px solid black;
+            
+
+            /* we can set margin/padding for top, bottom,left, right like this */
+            /* padding-top: 76px;
+            padding-bottom: 76px;
+            padding-left: 34px;
+            padding-right: 82px; */
+            /* padding/margin: top right bottom left */
+            /* padding: y(top/bottom) x(left/right) */
+            padding-left: 10px;
+            padding-right: 2px;
+            padding-top: 0.5px;
+            padding-bottom: 0.5px;
+
+            margin-right: 950px;
+            margin-top: 15px;
+            margin-left: 0.5px;
+            margin-bottom: 5px;
+
+
+
+
+            border-radius: 18px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h4>This is an exam of Box Model</h4>
+        <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae officia ut atque,
+            nesciunt enim! Quasi, beatae voluptatibus, modi, consequuntur numquam voluptas quaerat itaque consequatur
+            saepe aperiam veniam cum ab!</p>
+    </div>
+
+
+    <div class="container">
+        <h4>This is an exam of Box Model</h4>
+        <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae officia ut atque,
+            nesciunt enim! Quasi, beatae voluptatibus, modi, consequuntur numquam voluptas quaerat itaque consequatur
+            saepe aperiam veniam cum ab!</p>
+    </div>
+
+
+    <div class="container">
+        <h4>This is an exam of Box Model</h4>
+        <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam repudiandae officia ut atque,
+            nesciunt enim! Quasi, beatae voluptatibus, modi, consequuntur numquam voluptas quaerat itaque consequatur
+            saepe aperiam veniam cum ab!</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
